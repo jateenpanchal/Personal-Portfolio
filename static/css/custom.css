@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Rowdies:wght@300&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Ramabhadra&display=swap');   
+/* for using navbar links font style */
+
+
+
+.navbar {
+  height: 110px;
+  overflow: hidden;
+  font-family: "Courgette", cursive;
+}
+.navbarlink {
+  /* font-family: "Concert One", cursive; */
+  font-family: 'Ramabhadra', sans-serif;
+}
+
+a.nav-link.active{
+  /* color: black !important; */
+  border-bottom: 2px solid white;
+}
+
+.navbar-text a:hover {
+  border-bottom: 2px solid white;
+}
+
+.navbar-custom {
+  background-color: #2b6777;
+}
+
+.branddiv .mybrand {
+  font-family: "Rowdies", cursive;
+  letter-spacing: 5px;
+}
+.branddiv a:hover {
+  border-bottom: 2px solid white;
+}
+
+.Resume {
+  height: 1500px;
+  background-color: cadetblue;
+}
+.Projects {
+  height: 1500px;
+  background-color: rgb(243, 243, 115);
+}
+.Contactme {
+  height: 1500px;
+  background-color: rgb(139, 115, 217);
+}
+.Education {
+  height: 1500px;
+  background-color: rgb(227, 97, 208);
+}
+
+
+/* _______________________________________________ */
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ##########################    header div   ############################ */
+
+/* header myname paragraph */
+
+.leftsidepart {
+  height: 45rem;
+  background-color: #52ab98;
+}
+
+.rightsidepart {
+  height: 45rem;
+}
+
+/* floating middle card */
+.mycard{
+  max-height: 35rem;
+  max-width: 50rem;
+  float: left;
+  position: absolute;
+  left: 10rem;
+  top: 10.5rem;
+  align-items: center;
+}
+
+.cardleftpart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: -0.5rem 1rem 1.5rem 0.1rem rgb(23, 23, 23); */
+  box-shadow: 1px 5px 8px black;
+  height: 35rem;
+  background-color: #c8d8e4;
+}
+
+.cardrightpart{
+  height: 35rem;
+}
+
+.cardrightpart h1{
+  margin-left: 50px;
+}
+.divimg{
+  width: 200px;
+}
+
+.mycardimg {
+  height: 250px;
+  border-radius: 10rem;
+  border: white 3px solid ;
+  /* margin: 2.5rem 7.5rem 0rem 7.5rem; */
+}
+
+.cardname{
+  margin-top: 2rem;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+
+.cardname::after {
+  content: "";
+  border: 1px solid black;
+  display: block;
+  width: 227px;
+  margin: 5px 108px;
+}
+
+.cardp {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* icons background */
+.icons {
+  background-color:white;
+  height: 4rem;
+  width: 25rem;
+  position: absolute;
+  top: 31rem;
+}
+.icons a i {
+  font-size: 45px;
+  margin: 9px 7px 0px 25px;
+  color: black;
+}
+.icons a i:hover {
+  color: rgb(68, 61, 61);
+}
+
+/*############################# right side content part #######################*/
+.content {
+  margin: 5.5rem;
+  padding: 3.5rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-left: 3rem;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contentpara {
+  margin-bottom: 2.5rem;
+  margin-left: 3.5rem;
+  font-size: 1.5rem;
+  font-family: "Yantramanav", sans-serif;
+}
+
+.content button {
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 1.5rem;
+}
+
+.cardrightpart .btn-primary{
+  background-color: #071c4c;
+  color: white;
+  border: 0.2rem solid #071c4c;
+  margin: 0rem 0rem 2rem 3rem;
+  padding: 6px 10px;
+  height: 50px;
+  width: 95px;
+  border-color: #071c4c !important;
+}
+
+.cardrightpart .btn-outline-secondary{
+  border: 0.2rem solid grey;
+  border-color:darkgray !important;
+}
+
+
+.projectsbtn {
+  background-color: white;
+  color: black;
+  border: 0.2rem solid black;
+  padding: 6px 10px;
+  height: 50px;
+  width: 95px;
+  margin: 0rem 1rem 2rem 1rem;
+}
+
+/*######################### FOOTER STYLING ########################## */
+
+.footer {
+  height: 6rem;
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+.footericons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footericons a i {
+  margin: 20px;
+  font-size: 30px;
+  color: black;
+}
+
+.footericons a i:hover {
+  color: rgb(68, 61, 61);
+}
+
+.footericons p {
+  font-size: 1.5rem;
+}
+/* ################### resume styling########## */
+.resumemain{
+  width: 100%;
+  background-color: #c8d8e4;
+  height: 2000px;
+}
+.resumemain2{
+  width: 100%;
+  height: 2000px;
+}
+
+.resumetitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.downloadcv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.resumeitems{
+  min-height: 350px;
+  max-width: 750px;
+  background-color: white;
+  margin: 50px 0 0 0;
+  /* box-shadow: 3px 7px 15px black; */
+  box-shadow: 1px 5px 8px black;
+  position: relative;
+  top: 10%; 
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.downloadcv .btn-primary{
+  background-color: #071c4c !important;
+  border-color: #071c4c !important;
+  height: 50px;
+}
+.downloadcv .btn-primary:hover{
+  background-color: #1c305e !important;
+
+}
+
+
+
+/*########################## contact styling #############################*/
+
+.contacticons .card:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+
+.contacticons a i {
+  font-size: 45px;
+  margin: 9px 9px 0px 25px;
+  color: black;
+}
+.contacticons a i:hover {
+  color: rgb(68, 61, 61);
+}
+
+.contactfields .btn-primary{
+  background-color: #071c4c !important;
+  border-color: #071c4c !important;
+  height: 50px;
+}
+.btn-primary:hover{
+  background-color: #1c305e !important;
+}
+
+.form-control{
+  height: 50px;
+}
+
+
+
+.contactmain{
+  background-color: #79aba0;
+  height: 850px;
+}
+
+.inputdiv{
+  background-color: white;
+  box-shadow: 1px 5px 8px black;
+  padding: 50px;
+}
+
+.contactlabel{
+  font-family: 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+/*#################################### Project styling ###########################*/
+
+.projectmain {
+  width: 100%;
+  height: auto;
+  background-color: rgb(202, 241, 210);
+  
+}
+
+.mainitems {
+  width: 900px;
+  min-height: 620px;
+  /* box-shadow: 3px 7px 15px black; */
+  -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+.projecttext {
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 991px){
+  .mycard{
+    max-height: 35rem;
+    max-width: 50rem;
+    float: left;
+    position: absolute;
+    left: 3rem;
+    top: 8rem;
+    align-items: center;
+  }
+
+}
+@media screen and (max-width: 768px){
+  .mycard{
+    max-height: 30rem;
+    max-width: 36rem;
+    float: left;
+    position: absolute;
+    left: 3rem;
+    top: 8rem;
+    align-items: center;
+  }
+  .leftsidepart {
+    height: 40rem;
+    background-color: #52ab98;
+  }
+  .rightsidepart {
+    height: 45rem;
+  }
+  .icons {
+    width: 100%;
+  }
+  .cardleftpart{
+    max-height: 35rem;
+    width: 30rem; 
+  }
+
+  .cardrightpart{
+    padding-top: 25px;
+    max-height: 35rem;
+    width: 30rem;
+  }
+
+.rightsidepart {
+  height: 45rem;
+}
+.contactmain{
+  background-color: #79aba0;
+  height: 1400px;
+}
+}
+
+
+
+@media screen and (max-width: 576px){
+  .mycard{
+    max-height: 35rem;
+    max-width: 50rem;
+    float: left;
+    position: absolute;
+    left: 0rem;
+    top: 5rem;
+    align-items: center;
+  }
+  .icons {
+    width: 100%;
+  }
+  
+  .resumeitems{
+    min-height: 350px;
+    max-width: 750px;
+    background-color: white;
+    /* margin: 50px 0 0 0; */
+    /* box-shadow: 3px 7px 15px black; */
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.75);
+    position: relative;
+    top: 10%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .cardrightpart{
+    background-color: white;
+  }
+  .contactmain{
+    background-color: #79aba0;
+    height: 1400px;
+  }
+  
+}

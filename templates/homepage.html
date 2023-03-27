@@ -1,0 +1,59 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+
+<div class="container-fluid g-0">
+  <div class="main row g-0">
+    <div class="leftsidepart col-md-4"></div>
+
+    <div class="rightsidepart col-md-8"></div>
+  </div>
+
+  <div class="mycard row g-0">
+    <div class="cardleftpart col-md-6">
+      <div class="divimg">
+        <img class="img-fluid mycardimg" src=" {% static 'images/my2.jpg' %} " alt="" height="50px" />
+      </div>
+      <p class="cardname">Jateen Panchal</p>
+      <!-- <hr class="line" /> -->
+      <p class="cardp">PYTHON DEVELOPER</p>
+
+      <div class="icons row" style="width:;">
+        <div class="col"><a href="https://www.facebook.com/jateen.panchal.161">
+            <i class="fa-brands fa-facebook"></i>
+          </a></div>
+        <div class="col"><a href="#">
+            <a href="https://github.com/jateenpanchal"><i class="fa-brands fa-github"></i></a>
+          </a></div>
+        <div class="col"> <a href="https://www.linkedin.com/in/jateen-panchal-526634261/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a></div>
+        <div class="col"> <a href="https://twitter.com/staywidstyle?t=8rHXOp3-T1jSJjt20BqXTw&s=09">
+            <i class="fa-brands fa-twitter"></i>
+          </a></div>
+
+
+
+
+
+      </div>
+    </div>
+    <div class="cardrightpart col-md-6">
+      <h1 class="mt-5">Hello</h1>
+
+      <p class="contentpara">here's who i am & what i do</p>
+
+      <a href="{% url 'resume' %}">
+        <button class="resumebtn btn btn-primary">Resume</button></a>
+
+      <a href="{% url 'project' %}">
+        <button class="projectsbtn btn btn-outline-secondary">Projects</button></a>
+
+      <p class="contentpara">
+        I am a <span class="text-danger"> Python Developer</span> and i am
+        looking for an entry-level position to kickstart my career in the
+        Python development.
+      </p>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
